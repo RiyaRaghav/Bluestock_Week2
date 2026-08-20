@@ -6,7 +6,7 @@ with open("Bluestock_Week2/API_Assignment/posts_user1.json", "r", encoding="utf-
 
 df = pd.DataFrame(data)
 
-df.to_csv("posts_user1.csv", index=False)
+df.to_csv("Bluestock_Week2/API_Assignment/posts_user1.csv", index=False)
 
 print("JSON successfully converted to CSV.")
 print(df)
